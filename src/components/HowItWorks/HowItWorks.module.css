@@ -1,0 +1,94 @@
+.howSection {
+  background-color: var(--bg-main);
+  border-top: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.stepsGrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.stepWrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.stepCard {
+  background-color: var(--bg-main);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  width: 100%;
+  min-height: 200px;
+  justify-content: center;
+  transition: transform var(--transition-smooth);
+}
+
+.stepCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(56, 182, 255, 0.2);
+}
+
+.stepNumber {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--accent-blue);
+  line-height: 1;
+  opacity: 0.8;
+}
+
+.stepText {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.connector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  color: rgba(0,0,0,0.2);
+}
+
+.arrow {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (max-width: 992px) {
+  .stepsGrid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .stepWrapper {
+    flex-direction: column;
+  }
+
+  .connector {
+    padding: 1.5rem 0;
+    transform: rotate(90deg);
+  }
+  
+  .stepCard {
+    min-height: auto;
+  }
+}

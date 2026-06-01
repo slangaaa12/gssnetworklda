@@ -1,0 +1,218 @@
+.plansSection {
+  background-color: var(--bg-main);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  background-color: var(--bg-alt);
+  padding: 0.5rem;
+  border-radius: var(--radius-lg);
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabBtn {
+  padding: 0.75rem 2rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+}
+
+.tabBtn:hover {
+  color: var(--text-main);
+}
+
+.tabBtn.active {
+  background-color: var(--bg-main);
+  color: var(--primary-blue);
+  box-shadow: var(--shadow-sm);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.planCard {
+  background-color: var(--bg-main);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem 2rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.planCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-premium);
+  border-color: rgba(56, 182, 255, 0.2);
+}
+
+.corporateCard {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.corporateCard .speed,
+.corporateCard .planName,
+.corporateCard .priceQuote,
+.corporateCard .idealTitle,
+.corporateCard .idealItem,
+.corporateCard .perfectFor,
+.corporateCard .price,
+.corporateCard .perMonth {
+  color: white;
+}
+
+.corporateCard .checkIcon {
+  color: var(--accent-blue);
+}
+
+.planHeader {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.corporateCard .planHeader {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.planName {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--accent-blue);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.speed {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.priceQuote {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.perMonth {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.featureBlock {
+  margin-bottom: 1.25rem;
+}
+
+.featureBlock:last-of-type {
+  margin-bottom: 0;
+}
+
+.idealTitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.perfectFor {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.perfectFor strong {
+  color: var(--primary-blue);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.corporateCard .perfectFor {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+.corporateCard .perfectFor strong {
+  color: var(--accent-blue);
+}
+
+.idealList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.idealItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+}
+
+.checkIcon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--accent-blue);
+  flex-shrink: 0;
+}
+
+.cardFooter {
+  margin-top: auto;
+  padding-top: 2.5rem;
+}
+
+.chooseBtn {
+  width: 100%;
+  border-radius: var(--radius-full);
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    flex-direction: column;
+    width: 100%;
+    border-radius: var(--radius-md);
+  }
+  .tabBtn {
+    width: 100%;
+  }
+}

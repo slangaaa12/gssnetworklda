@@ -1,0 +1,365 @@
+{
+  "nav": {
+    "plans": "Plans",
+    "services": "Services",
+    "coverage": "Coverage",
+    "contact": "Contact"
+  },
+  "meta": {
+    "title": "GSS Network Limitada - Internet & Technology Solutions",
+    "description": "Reliable internet, professional IT support and technology infrastructure for residential and business clients in Mozambique."
+  },
+  "hero": {
+    "headline": "Internet & Technology Solutions For Homes And Businesses",
+    "subheadline": "Reliable internet, professional IT support and technology infrastructure for residential and business clients.",
+    "primaryBtn": "Request Internet Installation",
+    "secondaryBtn": "Request IT Support",
+    "imageAlt": "Technology and networking infrastructure"
+  },
+  "services": {
+    "title": "Our Services",
+    "internet": {
+      "title": "Internet Services",
+      "description": "Reliable internet solutions for homes and businesses.",
+      "features": [
+        "Residential Internet",
+        "Business Internet",
+        "Professional Installation",
+        "Coverage Assessment",
+        "Network Setup"
+      ],
+      "cta": "Request Installation"
+    },
+    "it": {
+      "title": "IT Services",
+      "description": "Technology support and infrastructure solutions for growing businesses.",
+      "features": [
+        "Technical Support",
+        "Network Configuration",
+        "Computer Maintenance",
+        "CCTV Systems",
+        "IT Consulting",
+        "Network Infrastructure"
+      ],
+      "cta": "Request IT Support"
+    }
+  },
+  "plans": {
+    "title": "Choose The Right Internet Plan",
+    "subtitle": "Find the ideal plan for your home or business.",
+    "residentialTitle": "Residential Plans",
+    "businessTitle": "Business Plans",
+    "idealFor": "Ideal for:",
+    "perfectFor": "Perfect for those who:",
+    "includes": "Includes:",
+    "perMonth": "MT/month",
+    "choosePlan": "Choose Plan",
+    "requestQuote": "Request Quotation",
+    "residential": [
+      {
+        "name": "START",
+        "speed": "10 Mbps",
+        "price": "1900",
+        "ideal": [
+          "1 to 2 people",
+          "Social Media",
+          "WhatsApp",
+          "Email",
+          "Daily browsing"
+        ],
+        "perfectFor": "Live alone or use the internet for basic tasks."
+      },
+      {
+        "name": "HOME",
+        "speed": "15 Mbps",
+        "price": "2700",
+        "ideal": [
+          "Up to 3 people",
+          "HD Streaming",
+          "YouTube",
+          "Football Online",
+          "Occasional gaming"
+        ],
+        "perfectFor": "Have a small family and use several devices at the same time."
+      },
+      {
+        "name": "FAMILY",
+        "speed": "20 Mbps",
+        "price": "3100",
+        "ideal": [
+          "3 to 5 people",
+          "Netflix and Streaming",
+          "Online Classes",
+          "Remote Work",
+          "Online Gaming"
+        ],
+        "perfectFor": "Need more stability for the whole family."
+      },
+      {
+        "name": "PREMIUM",
+        "speed": "30 Mbps",
+        "price": "4000",
+        "ideal": [
+          "Homes with many devices",
+          "High-quality streaming",
+          "Competitive gaming",
+          "Frequent video calls",
+          "Home Office"
+        ],
+        "perfectFor": "Want maximum performance for the entire home."
+      }
+    ],
+    "business": [
+      {
+        "name": "BUSINESS START",
+        "speed": "20 Mbps",
+        "price": "4000",
+        "ideal": [
+          "Small offices",
+          "Shops",
+          "Clinics",
+          "Email and online systems"
+        ],
+        "includes": [
+          "Basic Technical Support",
+          "Professional Installation",
+          "Business-grade Stability"
+        ]
+      },
+      {
+        "name": "BUSINESS PLUS",
+        "speed": "30 Mbps",
+        "price": "5200",
+        "ideal": [
+          "Growing businesses",
+          "Cloud systems",
+          "Video conferencing",
+          "Teams up to 10 employees"
+        ],
+        "includes": [
+          "Priority Support",
+          "Better performance",
+          "Greater stability"
+        ]
+      },
+      {
+        "name": "BUSINESS PRO",
+        "speed": "40 Mbps",
+        "price": "6400",
+        "ideal": [
+          "Medium businesses",
+          "Multiple departments",
+          "ERP systems",
+          "Continuous operations"
+        ],
+        "includes": [
+          "Network Monitoring",
+          "Static IP",
+          "Business Support"
+        ]
+      },
+      {
+        "name": "BUSINESS MAX",
+        "speed": "50 Mbps",
+        "price": "7600",
+        "ideal": [
+          "Hotels",
+          "Schools",
+          "Clinics",
+          "Companies with CCTV"
+        ],
+        "includes": [
+          "Priority Support",
+          "Static IP",
+          "24/7 Operation",
+          "High performance"
+        ]
+      },
+      {
+        "name": "BUSINESS CORPORATE",
+        "speed": "100 Mbps",
+        "price": "On Request",
+        "ideal": [
+          "Institutions",
+          "Large companies",
+          "Corporate networks",
+          "Critical environments"
+        ],
+        "includes": [
+          "Custom Solution",
+          "Business SLA",
+          "Account Manager",
+          "Dedicated Support",
+          "Scalable Infrastructure"
+        ],
+        "isQuote": true
+      }
+    ]
+  },
+  "recommendation": {
+    "title": "Not Sure Which Plan To Choose?",
+    "subtitle": "Answer a few questions to find the ideal plan for you.",
+    "questions": [
+      {
+        "id": "people",
+        "question": "How many people live in your home?",
+        "options": ["1-2 people", "3-4 people", "5+ people"]
+      },
+      {
+        "id": "streaming",
+        "question": "Do you watch streaming services?",
+        "options": ["Yes, occasionally", "Yes, frequently", "No"]
+      },
+      {
+        "id": "gaming",
+        "question": "Do you play online games?",
+        "options": ["Yes", "No"]
+      },
+      {
+        "id": "remoteWork",
+        "question": "Do you work remotely?",
+        "options": ["Yes", "No"]
+      },
+      {
+        "id": "devices",
+        "question": "How many devices connect simultaneously?",
+        "options": ["1-3", "4-7", "8+"]
+      }
+    ],
+    "result": "The recommended plan for you is:",
+    "restart": "Restart Questionnaire"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": [
+      "Choose A Service",
+      "Select A Plan",
+      "Submit Your Information",
+      "Schedule Installation Or Support",
+      "GSS Contacts You"
+    ]
+  },
+  "forms": {
+    "installation": {
+      "title": "Internet Installation Request",
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "type": "Residential Or Business",
+      "typeOptions": {
+        "residential": "Residential",
+        "business": "Business"
+      },
+      "mapsPlaceholder": "https://goo.gl/maps/...",
+      "address": "Address",
+      "province": "Province",
+      "district": "District",
+      "location": "Google Maps Location",
+      "plan": "Selected Plan",
+      "date": "Preferred Installation Date",
+      "notes": "Additional Notes",
+      "submit": "Request Installation",
+      "submitting": "Sending...",
+      "successTitle": "Request submitted successfully!",
+      "successMessage": "Your request has been registered. We will contact you within 24 hours.",
+      "errorMessage": "Could not submit your request. Please try again or contact us by phone.",
+      "newRequest": "Submit another request"
+    },
+    "it": {
+      "title": "IT Support Request",
+      "name": "Full Name",
+      "company": "Company Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "service": "Service Needed",
+      "serviceOptions": [
+        "Technical Support",
+        "Network Configuration",
+        "Computer Maintenance",
+        "CCTV Installation",
+        "IT Consulting",
+        "Other"
+      ],
+      "description": "Problem Description",
+      "contactMethod": "Preferred Contact Method",
+      "contactOptions": {
+        "phone": "Phone",
+        "email": "Email",
+        "whatsapp": "WhatsApp"
+      },
+      "submit": "Request IT Support",
+      "submitting": "Sending...",
+      "successTitle": "Request submitted successfully!",
+      "successMessage": "We will contact you as soon as possible. Your request will be answered shortly.",
+      "errorMessage": "Could not submit your request. Please try again or contact us by phone.",
+      "newRequest": "Submit another request"
+    }
+  },
+  "admin": {
+    "title": "Administration Panel",
+    "subtitle": "Enter your password to view all requests.",
+    "password": "Password",
+    "login": "Sign in",
+    "loggingIn": "Signing in...",
+    "loginError": "Incorrect password.",
+    "logout": "Sign out",
+    "loading": "Loading...",
+    "loadError": "Error loading requests.",
+    "dashboardTitle": "Requests Dashboard",
+    "tabInstallation": "Installations",
+    "tabItSupport": "IT Support",
+    "total": "Total",
+    "emptyInstallation": "No installation requests yet.",
+    "emptyItSupport": "No IT support requests yet.",
+    "fields": {
+      "phone": "Phone",
+      "email": "Email",
+      "company": "Company",
+      "service": "Service",
+      "contactMethod": "Preferred contact",
+      "description": "Description",
+      "lang": "Language",
+      "type": "Type",
+      "plan": "Plan",
+      "address": "Address",
+      "province": "Province",
+      "district": "District",
+      "location": "Maps location",
+      "preferredDate": "Preferred date",
+      "notes": "Notes"
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose GSS",
+    "features": [
+      "Reliable Connectivity",
+      "Fast Technical Response",
+      "Professional Installation",
+      "Business Technology Solutions",
+      "Local Support Team",
+      "Scalable Infrastructure"
+    ]
+  },
+  "about": {
+    "title": "About GSS Network Limitada",
+    "text": "GSS Network Limitada provides internet connectivity and technology solutions for residential clients, small businesses and growing organizations throughout Mozambique.",
+    "mission": "Our mission is to keep people and businesses connected, productive and technologically empowered."
+  },
+  "finalCta": {
+    "headline": "Ready To Get Connected?",
+    "subheadline": "Let's find the right solution for your home or business.",
+    "primaryBtn": "Request Internet Installation",
+    "secondaryBtn": "Request IT Support"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "phone": "Phone Numbers",
+    "email": "Email",
+    "address": "Office Address",
+    "phoneNumber": "+258 87 304 6853",
+    "emailAddress": "gssnetworklda@gmail.com",
+    "officeLocation": "Malhampsene, Tsalala, Nkobe, Circular de Maputo, Mozambique",
+    "copyrightLine": "© 2022 WISECONNECT LDA. All rights reserved."
+  }
+}

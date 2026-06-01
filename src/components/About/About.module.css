@@ -1,0 +1,22 @@
+.aboutSection {
+  background-color: var(--bg-main);
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.mission {
+  font-size: 1.25rem;
+  color: var(--primary-blue);
+}

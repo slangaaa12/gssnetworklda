@@ -1,0 +1,36 @@
+.ctaSection {
+  background-color: var(--bg-alt);
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.btnLarge {
+  padding: 1rem 2.25rem;
+  font-size: 1.125rem;
+  border-radius: var(--radius-full);
+}
+
+@media (max-width: 768px) {
+  .buttonGroup {
+    flex-direction: column;
+  }
+}
