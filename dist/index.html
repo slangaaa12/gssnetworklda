@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GSS NETWORK LIMITADA - O Futuro da Conexão</title>
+  <meta name="description" content="Internet e infraestrutura tecnológica com estabilidade, performance e suporte real.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script type="module" crossorigin src="/assets/index-VefPaB5U.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-fWAlALiV.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="/logo.png" alt="GSS Logo" onerror="this.style.display='none'">
+        <div class="logo-text">GSS <span>NETWORK</span></div>
+      </div>
+      <div class="nav-links">
+        <a href="#planos">Planos</a>
+        <a href="#cobertura">Cobertura</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#depoimentos">Depoimentos</a>
+      </div>
+      <button class="btn btn-primary" onclick="openModal('START')">Assinar Agora</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content fade-in">
+        <div class="badge">INFRAESTRUTURA PREMIUM</div>
+        <h1 class="hero-title">Conectando residências e empresas ao futuro digital.</h1>
+        <p class="hero-subtitle">Internet e infraestrutura tecnológica com estabilidade, performance e suporte real. Experimente a nova era da conectividade.</p>
+        <div class="hero-actions">
+          <a href="#planos" class="btn btn-primary">
+            Escolher Plano <i class="ph ph-arrow-right"></i>
+          </a>
+          <a href="#cobertura" class="btn btn-secondary">
+            Ver Cobertura <i class="ph ph-map-pin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plans Section -->
+  <section id="planos" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Planos Residenciais e Corporativos</h2>
+        <p class="section-subtitle">Escolha a velocidade ideal para sua casa ou negócio e tenha estabilidade garantida.</p>
+      </div>
+
+      <div class="plans-grid">
+        <!-- START -->
+        <div class="glass-card plan-card fade-in">
+          <div class="plan-header">
+            <h3 class="plan-name">START</h3>
+            <div class="plan-speed">500 <span>Mbps</span></div>
+            <div class="plan-price">R$ 99<span>,90/mês</span></div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ph ph-check-circle"></i> Ideal para uso básico</li>
+            <li><i class="ph ph-check-circle"></i> Redes sociais e vídeos HD</li>
+            <li><i class="ph ph-check-circle"></i> Wi-Fi 6 Incluso</li>
+            <li><i class="ph ph-check-circle"></i> Suporte Especializado</li>
+          </ul>
+          <button class="btn btn-secondary" onclick="openModal('START')">Selecionar Plano</button>
+        </div>
+
+        <!-- HOME -->
+        <div class="glass-card plan-card popular fade-in">
+          <div class="plan-header">
+            <h3 class="plan-name">HOME</h3>
+            <div class="plan-speed">800 <span>Mbps</span></div>
+            <div class="plan-price">R$ 129<span>,90/mês</span></div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ph ph-check-circle"></i> Streaming 4K sem travar</li>
+            <li><i class="ph ph-check-circle"></i> Jogos online (Baixo Ping)</li>
+            <li><i class="ph ph-check-circle"></i> Roteador Mesh Wi-Fi 6</li>
+            <li><i class="ph ph-check-circle"></i> Suporte Prioritário</li>
+          </ul>
+          <button class="btn btn-primary" onclick="openModal('HOME')">Selecionar Plano</button>
+        </div>
+
+        <!-- PRO -->
+        <div class="glass-card plan-card fade-in">
+          <div class="plan-header">
+            <h3 class="plan-name">PRO</h3>
+            <div class="plan-speed">1 <span>Gbps</span></div>
+            <div class="plan-price">R$ 199<span>,90/mês</span></div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ph ph-check-circle"></i> Para criadores de conteúdo</li>
+            <li><i class="ph ph-check-circle"></i> Downloads ultrarrápidos</li>
+            <li><i class="ph ph-check-circle"></i> 2 Roteadores Mesh</li>
+            <li><i class="ph ph-check-circle"></i> IP Fixo opcional</li>
+          </ul>
+          <button class="btn btn-secondary" onclick="openModal('PRO')">Selecionar Plano</button>
+        </div>
+
+        <!-- BUSINESS -->
+        <div class="glass-card plan-card fade-in">
+          <div class="plan-header">
+            <h3 class="plan-name">BUSINESS</h3>
+            <div class="plan-speed">Dedicado</div>
+            <div class="plan-price">Sob <span>Consulta</span></div>
+          </div>
+          <ul class="plan-features">
+            <li><i class="ph ph-check-circle"></i> SLA 99.9%</li>
+            <li><i class="ph ph-check-circle"></i> Link Simétrico</li>
+            <li><i class="ph ph-check-circle"></i> Monitoramento 24/7 NOC</li>
+            <li><i class="ph ph-check-circle"></i> IP Fixo Dedicado</li>
+          </ul>
+          <button class="btn btn-secondary" onclick="openModal('BUSINESS')">Falar com Consultor</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coverage Section -->
+  <section id="cobertura" class="section">
+    <div class="container">
+      <div class="coverage-container fade-in">
+        <div class="coverage-bg"></div>
+        <div class="coverage-overlay"></div>
+        <div class="coverage-content">
+          <h2 class="section-title">Infraestrutura em Expansão</h2>
+          <p>Verifique se o seu endereço já possui a rede de fibra óptica inteligente da GSS Network.</p>
+          <div class="search-box">
+            <input type="text" placeholder="Digite seu CEP ou Endereço...">
+            <button class="btn btn-primary"><i class="ph ph-magnifying-glass"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why GSS -->
+  <section id="vantagens" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Por que escolher a GSS Network?</h2>
+        <p class="section-subtitle">A infraestrutura que você precisa com a tecnologia que você merece.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon"><i class="ph ph-rocket-launch"></i></div>
+          <h3 class="feature-title">Velocidade Máxima</h3>
+          <p class="feature-desc">Fibra óptica de ponta a ponta garantindo as maiores taxas de transferência do mercado.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon"><i class="ph ph-shield-check"></i></div>
+          <h3 class="feature-title">Estabilidade Absoluta</h3>
+          <p class="feature-desc">Rede com redundância e rotas otimizadas para que você nunca fique desconectado.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon"><i class="ph ph-headset"></i></div>
+          <h3 class="feature-title">Suporte Técnico Real</h3>
+          <p class="feature-desc">Atendimento humano, rápido e especializado para resolver seus problemas na hora.</p>
+        </div>
+        <div class="feature-card glass-card fade-in">
+          <div class="feature-icon"><i class="ph ph-cpu"></i></div>
+          <h3 class="feature-title">Tecnologia de Ponta</h3>
+          <p class="feature-desc">Equipamentos de última geração com Wi-Fi 6 e Mesh para cobertura total.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Installation -->
+  <section class="section">
+    <div class="container">
+      <div class="installation-section">
+        <div class="installation-image fade-in">
+          <img src="/infra_bg.png" alt="Equipamentos GSS">
+        </div>
+        <div class="installation-content fade-in">
+          <h2 class="section-title">Instalação Nível Premium</h2>
+          <p style="margin-bottom: 24px; color: var(--color-text-muted);">Esqueça fios soltos e técnicos despreparados. Nossa equipe técnica entrega um serviço padrão internacional de infraestrutura.</p>
+          <ul>
+            <li><i class="ph ph-check-circle"></i> Avaliação do sinal Wi-Fi no local</li>
+            <li><i class="ph ph-check-circle"></i> Cabeamento invisível e organizado</li>
+            <li><i class="ph ph-check-circle"></i> Técnicos altamente capacitados</li>
+            <li><i class="ph ph-check-circle"></i> Configuração completa da rede</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="depoimentos" class="section" style="background: rgba(4, 27, 61, 0.3);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Quem usa, confia.</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass-card fade-in">
+          <i class="ph-fill ph-quotes quote-icon"></i>
+          <p class="testimonial-text">"Trabalho de casa e não podia mais lidar com a instabilidade do provedor antigo. Com a GSS, faço reuniões e baixo arquivos pesados sem piscar a conexão."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">M</div>
+            <div class="author-info">
+              <h4>Marcos Silva</h4>
+              <span>Desenvolvedor de Software</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass-card fade-in">
+          <i class="ph-fill ph-quotes quote-icon"></i>
+          <p class="testimonial-text">"Instalamos a rede BUSINESS na agência. O NOC deles já detectou um problema na rota antes mesmo da gente perceber. Suporte incrível."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">J</div>
+            <div class="author-info">
+              <h4>Juliana Costa</h4>
+              <span>Diretora de Agência Digital</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section fade-in">
+    <div class="container">
+      <h2 class="cta-title section-title">Pronto para se conectar ao futuro?</h2>
+      <p style="margin-bottom: 40px; color: var(--color-text-muted);">Agende sua instalação agora e mude sua experiência de internet.</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary" onclick="openModal('HOME')">Agendar Instalação</button>
+        <button class="btn btn-secondary">Solicitar Orçamento</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid fade-in">
+        <div class="footer-col">
+          <div class="logo footer-logo">
+            <img src="/logo.png" alt="GSS Logo" onerror="this.style.display='none'">
+            <div class="logo-text">GSS <span>NETWORK</span></div>
+          </div>
+          <p class="footer-desc">Conectando o futuro das empresas e residências com tecnologia de alta performance.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="ph ph-instagram-logo"></i></a>
+            <a href="#" class="social-link"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="#" class="social-link"><i class="ph ph-whatsapp-logo"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#cobertura">Cobertura</a></li>
+            <li><a href="#vantagens">Por que GSS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Contrato de Prestação</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="#">0800 123 4567</a></li>
+            <li><a href="#">suporte@gssnetwork.com</a></li>
+            <li><a href="#">Área do Cliente</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 GSS NETWORK LIMITADA. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scheduling Modal Flow -->
+  <div class="modal-overlay" id="schedulingModal">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeModal()"><i class="ph ph-x"></i></button>
+      
+      <div class="modal-header">
+        <h2 class="modal-title">Agendar Instalação</h2>
+        <div class="modal-subtitle" id="selectedPlanDisplay">Plano: HOME</div>
+        
+        <div class="stepper">
+          <div class="step active" id="indicator-1">
+            <div class="step-circle">1</div>
+            <div class="step-label">Dados</div>
+          </div>
+          <div class="step" id="indicator-2">
+            <div class="step-circle">2</div>
+            <div class="step-label">Endereço</div>
+          </div>
+          <div class="step" id="indicator-3">
+            <div class="step-circle">3</div>
+            <div class="step-label">Detalhes</div>
+          </div>
+          <div class="step" id="indicator-4">
+            <div class="step-circle"><i class="ph ph-check"></i></div>
+            <div class="step-label">Fim</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <!-- Step 1: Personal Info -->
+        <div class="form-step active" id="step-1">
+          <h3 style="margin-bottom: 24px;">Informações Pessoais</h3>
+          <div class="form-group">
+            <label>Nome Completo</label>
+            <input type="text" class="form-control" id="formName" placeholder="Seu nome completo">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Telefone / WhatsApp</label>
+              <input type="tel" class="form-control" id="formPhone" placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-group">
+              <label>E-mail</label>
+              <input type="email" class="form-control" id="formEmail" placeholder="seu@email.com">
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2: Address Info -->
+        <div class="form-step" id="step-2">
+          <h3 style="margin-bottom: 24px;">Local de Instalação</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>CEP</label>
+              <input type="text" class="form-control" id="formZip" placeholder="00000-000">
+            </div>
+            <div class="form-group">
+              <label>Cidade</label>
+              <input type="text" class="form-control" id="formCity" placeholder="Ex: Maputo">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Endereço Completo</label>
+            <input type="text" class="form-control" id="formAddress" placeholder="Rua, Avenida, Bairro...">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Número</label>
+              <input type="text" class="form-control" id="formNumber" placeholder="Nº">
+            </div>
+            <div class="form-group">
+              <label>Complemento</label>
+              <input type="text" class="form-control" id="formComplement" placeholder="Apto, Sala, Casa...">
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3: Installation Details -->
+        <div class="form-step" id="step-3">
+          <h3 style="margin-bottom: 24px;">Preferências de Instalação</h3>
+          
+          <div class="form-group">
+            <label>Tipo de Imóvel</label>
+            <div class="radio-group">
+              <label class="radio-card">
+                <input type="radio" name="propertyType" value="Residencial" checked>
+                <div class="radio-content"><i class="ph ph-house"></i> Residencial</div>
+              </label>
+              <label class="radio-card">
+                <input type="radio" name="propertyType" value="Empresarial">
+                <div class="radio-content"><i class="ph ph-buildings"></i> Empresarial</div>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Data Preferencial</label>
+              <input type="date" class="form-control" id="formDate">
+            </div>
+            <div class="form-group">
+              <label>Horário Preferencial</label>
+              <select class="form-control" id="formTime">
+                <option value="Manhã (08h as 12h)">Manhã (08h as 12h)</option>
+                <option value="Tarde (13h as 18h)">Tarde (13h as 18h)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4: Confirmation -->
+        <div class="form-step" id="step-4">
+          <div style="text-align: center; margin-bottom: 30px;">
+            <div style="width: 80px; height: 80px; background: rgba(56, 182, 255, 0.1); border: 2px solid var(--color-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: var(--color-blue); margin: 0 auto 20px;">
+              <i class="ph ph-check"></i>
+            </div>
+            <h3 style="font-size: 1.8rem;">Tudo Pronto!</h3>
+            <p style="color: var(--color-text-muted);">Confirme os dados abaixo para finalizar o agendamento.</p>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-item">
+              <span class="summary-label">Plano Selecionado</span>
+              <span class="summary-value" id="summaryPlan">HOME</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Nome</span>
+              <span class="summary-value" id="summaryName">-</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Endereço</span>
+              <span class="summary-value" id="summaryAddress">-</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Agendamento</span>
+              <span class="summary-value" id="summaryDateTime">-</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="btnPrev" style="visibility: hidden;" onclick="prevStep()">Voltar</button>
+        <button class="btn btn-primary" id="btnNext" onclick="nextStep()">Avançar <i class="ph ph-arrow-right"></i></button>
+        <button class="btn btn-primary" id="btnSubmit" style="display: none;" onclick="submitForm()">Confirmar Agendamento <i class="ph ph-check-circle"></i></button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
